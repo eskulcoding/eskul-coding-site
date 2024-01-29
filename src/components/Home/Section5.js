@@ -7,8 +7,10 @@ function Section5() {
             <p className="text-[32px] font-semibold">Album</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
                 { dataAlbum.map((e,i) => 
-                    <div key={i}>
-                        <Image src={`/assets/img/album/${e}`} width={300} height={300} layout="responsive" data-aos="fade-up" alt="eskul coding sma perguruan buddhi"/>
+                    <div key={i} className="relative" data-aos="fade-up">
+                        <Image src={`/assets/img/album/${e}`} width={300} height={300} layout="responsive" alt="eskul coding sma perguruan buddhi" className="absolute top-0 left-0 z-10"/>
+                        <div className="animate-pulse w-full h-[300px] bg-neutral-200 z-0">
+                        </div>
                     </div>
                 ) }
             </div>

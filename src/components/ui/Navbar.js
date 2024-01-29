@@ -6,7 +6,7 @@ function Navbar() {
         <header className="w-full flex items-center justify-between px-8 sm:px-12 md:px-20 lg:px-32 2xl:pl-64 2xl:px-72 py-5 bg-white fixed z-50">
             <div className="flex items-center space-x-2 md:space-x-5">
                 <div className="inline-block rounded-full overflow-hidden w-10">
-                    <Image src={"/assets/img/logo.jpg"} width={300} height={300} layout="responsive"/>
+                    <Image src={"/assets/img/logo-0.jpg"} width={300} height={300} layout="responsive"/>
                 </div>
                 <h4 className="text-sm md:text-base font-bold">
                     Coding SMA Buddhi
@@ -47,7 +47,7 @@ function Navbar() {
                             Social Media
                         </Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link href={"/"} className="hover:text-neutral-100 duration-200 py-5 w-full flex justify-center hover:bg-neutral-600 focus:bg-neutral-600">
                             Tentang Kami
                         </Link>
@@ -56,7 +56,7 @@ function Navbar() {
                         <Link href={"/"} className="hover:text-neutral-100 duration-200 py-5 w-full flex justify-center hover:bg-neutral-600 focus:bg-neutral-600">
                             Projek
                         </Link>
-                    </li>
+                    </li> */}
                 </ul>
             </button>
         </header>
