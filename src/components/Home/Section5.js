@@ -9,7 +9,6 @@ function Section5() {
                 { dataAlbum.map((e,i) => 
                     <div key={i} className="relative" data-aos="fade-up">
                         <Image src={`/assets/img/album/${e}`} width={300} height={300} layout="responsive" alt="eskul coding sma perguruan buddhi" className="absolute top-0 left-0 z-10"/>
-                        <div className="animate-pulse w-full h-[300px] bg-neutral-200 z-0">
                         </div>
                     </div>
                 ) }
