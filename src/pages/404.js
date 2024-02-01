@@ -13,7 +13,7 @@ function NotFound() {
                     <h1 className="text-[80px] md:text-[100px] xl:text-[110px]">404</h1>
                     <span className="text-lg xl:text-2xl">OOPS! NOTHING WAS FOUND</span>
                     <span className="mt-7">
-                        The page you are looking for might have been removed or temporarily archived for development process <Link href={"/"} className="underline">Return to homepage</Link>
+                        The page you are looking for might have been removed or temporarily archived for development process <Link href={"/"} className="underline hover:text-neutral-400 duration-200">Return to homepage</Link>
                     </span>
                 </div>
             </div>
