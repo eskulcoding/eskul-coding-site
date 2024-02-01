@@ -8,7 +8,7 @@ function Section5() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
                 { dataAlbum.map((e,i) => 
                     <div key={i} className="relative" data-aos="fade-up">
-                        <Image src={`/assets/img/album/${e}`} width={300} height={300} layout="responsive" alt="eskul coding sma perguruan buddhi" className="absolute top-0 left-0 z-10"/>
+                        <Image src={`/assets/img/album/${e}`} width={300} height={300} layout="responsive" alt="eskul coding sma perguruan buddhi"/>
                     </div>
                 ) }
             </div>
