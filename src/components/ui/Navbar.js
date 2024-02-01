@@ -8,9 +8,11 @@ function Navbar() {
                 <div className="inline-block rounded-full overflow-hidden w-10">
                     <Image src={"/assets/img/logo-0.jpg"} width={300} height={300} layout="responsive"/>
                 </div>
-                <h4 className="text-sm md:text-base font-bold">
-                    Coding SMA Buddhi
-                </h4>
+                <Link href={"/"}>
+                    <h4 className="text-sm md:text-base font-bold">
+                        Coding SMA Buddhi
+                    </h4>
+                </Link>
             </div>
             <ul className="hidden md:flex space-x-8">
                 <li>

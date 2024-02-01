@@ -12,7 +12,7 @@ function Section1() {
                     Ini adalah tempat dimana impian digitalmu terwujud !<br/>Ayo bersama jelajahi serta pelajari dunia #ngoding dengan semangat dan bangun keterampilan untuk masa depan
                 </p>
             </div>
-            <div className="w-full md:w-[40%]">
+            <div className="w-full md:w-[40%] relative flex justify-center items-center">
                 <Image src={"/assets/img/material-2.png"} width={500} height={500} layout="responsive"/>
             </div>
         </div>
