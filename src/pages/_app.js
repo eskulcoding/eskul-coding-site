@@ -1,4 +1,5 @@
 import "@/styles/globals.css";
+import "@/styles/swiper.css";
 import { Poppins } from 'next/font/google'
 
 const poppins = Poppins({

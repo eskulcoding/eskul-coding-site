@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
+
+.section-container {
+    @apply px-8 sm:px-12 md:px-24 lg:px-36 2xl:px-72 py-20 md:py-40 lg:py-44 xl:py-56;
+}
+
 @tailwind utilities;

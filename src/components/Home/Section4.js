@@ -3,7 +3,7 @@ import Link from "next/link";
 function Section4() {
     return (
         <div className="flex items-center justify-center py-36">
-            <div className="flex flex-col items-center text-center space-y-5 w-full md:w-[50%]" data-aos="fade-up"> 
+            <div className="flex flex-col items-center text-center space-y-5 w-full md:w-[80%] lg:w-[50%]" data-aos="fade-up"> 
                 <h1 className="text-5xl md:text-6xl 2xl:text-[72px] font-bold leading-none">
                     Jadi, Kamu Tunggu <br/>Apa Lagi ?
                 </h1>
@@ -12,7 +12,7 @@ function Section4() {
                 </p>
                 <div>
                     <Link href={"mailto:eskulcoding.smabuddhi@gmail.com"}>
-                        <button className="px-10 py-4 border-2 border-[#101010] rounded-xl bg-[#101010] hover:bg-transparent hover:text-black duration-200 text-white">
+                        <button className="px-10 py-4 border-2 border-[#101010] bg-[#101010] hover:bg-transparent hover:text-black duration-200 text-white">
                             Hubungi kami
                         </button>
                     </Link>

@@ -52,7 +52,7 @@ function Card({object, parentRef}) {
     return (
         <div className="w-full flex items-center space-x-2 overflow-hidden" ref={cardRef}>
             <div className="p-2 text-white relative" style={{ width : cardWidth && cardWidth }}>
-                <div className="w-full h-full bg-[#2E2E2E] absolute p-2 top-0 right-0 rounded-lg" data-aos='fade-right'></div>
+                <div className="w-full h-full bg-[#FA264D] absolute p-2 top-0 right-0 rounded-lg" data-aos='fade-right'></div>
                 <span className="z-10 relative">
                     {object.name} 
                 </span>
