@@ -31,7 +31,7 @@ function Navbar() {
                     </Link>
                 </li>
             </ul>
-            <Link href={"https://www.instagram.com/smadhi_coding"} className="hover:text-[#FA264D] duration-200 border-b-2 border-[#FA264D] border-opacity-0 hover:border-opacity-100 hover:pb-2">
+            <Link href={"https://www.instagram.com/smadhi_coding"}>
                 <button className="hidden md:flex text-[#FA264D] px-4 py-2 items-center space-x-2 border border-[#FA264D] bg-transparent hover:bg-[#FA264D] hover:text-white duration-200">
                     <FontAwesomeIcon icon={faInstagram}/>
                     <span className="text-xs">
