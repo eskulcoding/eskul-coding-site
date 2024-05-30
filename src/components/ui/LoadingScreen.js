@@ -6,12 +6,14 @@ function LoadingScreen() {
 
     useEffect(() => {
         function handler () {
-            setTimeout(() => {
-                loadingScreenRef.current.style.opacity = 0;
+            if(loadingScreenRef.current) {
                 setTimeout(() => {
-                    loadingScreenRef.current.style.display = 'none';
-                }, 200)
-            }, 1000)
+                    loadingScreenRef.current.style.opacity = 0;
+                    setTimeout(() => {
+                        loadingScreenRef.current.style.display = 'none';
+                    }, 200)
+                }, 1000)
+            }
         };
 
         window.addEventListener("load", handler());
