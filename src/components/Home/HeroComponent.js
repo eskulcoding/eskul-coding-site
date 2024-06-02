@@ -11,14 +11,16 @@ function HeroComponent() {
                 <p className="text-sm text-neutral-600 text-justify">
                 Ini adalah tempat dimana impian digitalmu terwujud! Ayo bersama jelajahi serta pelajari dunia #ngoding dengan semangat dan bangun keterampilan untuk masa depan
                 </p>
-                <button className="flex justify-center text-xs text-white w-56 py-4 bg-[#FA264D] group duration-200">
-                    <span>
-                        SMA Perguruan Buddhi
-                    </span>
-                    <span className="ml-2 group-hover:ml-4 duration-200">
-                        {'>'}
-                    </span>
-                </button>
+                <a href="https://sma-buddhischool.sch.id/">
+                    <button className="flex justify-center text-xs text-white w-56 py-4 bg-[#FA264D] group duration-200">
+                        <span>
+                            SMA Perguruan Buddhi
+                        </span>
+                        <span className="ml-2 group-hover:ml-4 duration-200">
+                            {'>'}
+                        </span>
+                    </button>
+                </a>
             </div>
             <div className="w-full md:w-[40%] relative flex justify-center items-center">
                 <Image src={"/assets/img/material-2.png"} width={500} height={500} layout="responsive"/>
